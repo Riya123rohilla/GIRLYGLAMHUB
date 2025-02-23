@@ -1,0 +1,135 @@
+body{
+    font-family: Arial,  sans-serif;
+    background-color: #fce4ec;
+    margin: 0;
+    padding: 0;
+}
+.shop{
+    text-align: center;
+    font-family: serif,Arial, Helvetica, sans-serif;
+    color: #d83b60;
+    font-size: 35px;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 50px;
+    background-color: white;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+ 
+    }
+
+header .logo{
+    font-size: 24px;
+    font-weight: bold;
+    color: #d81b60;
+}
+.brand-logo{
+    font-size: 30px;
+    font-weight: bold;
+    color: #d81b60;
+  
+}
+
+
+
+header nav a {
+    margin: 0 50px;
+    text-decoration: none;
+    color: #333;
+    font-size: 16px;
+    transition: color 0.3s ease;
+   justify-content: right;
+}
+
+header nav a:hover,
+header nav a.active {
+
+ color: #d81b60;
+}
+
+
+h1{
+    text-align: center;
+    font-weight: bold;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+
+}
+
+.boxes{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 100px;
+    max-width: 1500px;
+    width: 100%;
+
+}
+section{
+    padding: 50px;
+}
+
+
+.product-cart{
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    padding: 15px;
+    text-align: center;
+    transition: transform 0.3s, box-shadow 0.3s;
+    cursor: pointer;
+    
+}
+
+.product-cart img{
+    max-width: 100%;
+    border-radius: 10px;
+}
+
+.tittle{
+    font-size: 1.2em;
+    color: #333;
+    margin: 10px 0;
+}
+
+.price {
+    color: #e74c3c;
+    font-weight: bold;
+    font-size: 1.1em;
+}
+
+.Add-to-cart {
+    background-color: #d81b60;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius:5px;
+    cursor: pointer;
+    font-size: 1em;
+    transition: background 0.3s;
+}
+
+.product-cart:hover,
+.product-cart:active {
+    transform: scale(1.05);
+    box-shadow: o 6px 12px rgba(0,0,0,0.15);
+}
+
+.Add-to-cart:hover,
+.Add-to-cart:active {
+    background-color: #d81b60;
+    transform: scale(0.95);
+}
+img:hover,
+img:active {
+    transform: scale(1.05);
+    box-shadow: o 6px 12px rgba(0,0,0,0.15);
+}
+
+
+
